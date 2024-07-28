@@ -27,8 +27,8 @@ var pct =new Array(9);
     var color =color2;
     //Select the text color
     var colortxt = colortxt2;
-    var gendertext1 = "It is a She!";
-    var gendertext2 = "It is a He!";
+    var gendertext1 = "It is a Girl!";
+    var gendertext2 = "It is a Boy!";
     var gendertext3= "It is a Demo!";
     //Select the gender text
     var gendertext = gendertext2;
@@ -126,7 +126,8 @@ var pct =new Array(9);
     function scratcher7Changed(ev) {
         pct[6] = (this.fullAmount(40) * 100)|0;
         checkpct();
-    };
+    };    var gendertext1 = "It is a She!";
+    var gendertext2 = "It is a He!";
     function scratcher8Changed(ev) {
         pct[7] = (this.fullAmount(40) * 100)|0;
         checkpct();
